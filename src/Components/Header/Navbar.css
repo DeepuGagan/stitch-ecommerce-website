@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 35px 160px;
+  padding: 20px 160px;
   position: relative;
   z-index: 10;
   background-color: white;
@@ -22,10 +22,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 .logoContainer img {
   background: none !important;
+  width: 112px;
+  height: auto;
+  object-fit: contain;
+  margin: 0;
+  padding: 0;
+  display: block;
 }
 
 .linkContainer ul {
@@ -94,6 +102,21 @@
     position: relative;
     z-index: 10;
     background-color: white;
+  }
+  
+  .mobile-nav .logoContainer {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+  }
+  
+  .mobile-nav .logoContainer img {
+    width: 80px;
+    height: auto;
+    object-fit: contain;
+    margin: 0;
+    padding: 0;
+    display: block;
   }
 }
 
